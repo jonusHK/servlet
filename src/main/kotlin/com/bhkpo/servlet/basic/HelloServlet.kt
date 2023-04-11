@@ -18,6 +18,6 @@ class HelloServlet: HttpServlet() {
         response.contentType = "text/plain"
         response.characterEncoding = "utf-8"
 
-        response.writer?.write("hello $username")
+        response.writer.write("hello $username")
     }
 }
