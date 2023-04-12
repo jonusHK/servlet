@@ -25,7 +25,7 @@ class ResponseHeaderServlet: HttpServlet() {
         // [Cookie 편의 메서드]
         cookie(resp)
 
-        // redirect(resp)
+        redirect(resp)
 
         // [message body]
         resp.writer.println("Hello")
