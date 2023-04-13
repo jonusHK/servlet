@@ -16,7 +16,7 @@ class FrontControllerServletV1: HttpServlet() {
     init {
         controllerMap["/front-controller/v1/members/new-form"] = MemberFormControllerV1()
         controllerMap["/front-controller/v1/members/save"] = MemberSaveControllerV1()
-        controllerMap["/front-controller/v1/members/members"] = MemberListControllerV1()
+        controllerMap["/front-controller/v1/members"] = MemberListControllerV1()
     }
 
 
