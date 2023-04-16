@@ -7,6 +7,7 @@ import com.bhkpo.servlet.web.frontcontroller.v3.ControllerV3
 
 class MemberSaveControllerV3: ControllerV3 {
     private val memberRepository = MemberRepository.getInstance()
+
     override fun process(paramMap: Map<String, String>): ModelView {
         val username: String = paramMap["username"]!!
         val age: Int = paramMap["age"]!!.toInt()
